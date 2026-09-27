@@ -1,0 +1,24 @@
+# ========== 构建产物 ==========
+build/
+cmake-build-*/
+
+# ========== 编译中间文件与可执行文件 ==========
+# 不要写裸文件名（如 task2_fit），否则会误伤 result/task2_fit/ 和 src/task2_fit/
+*.o
+*.obj
+*.out
+*.exe
+
+# ========== 编辑器与 IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========== Python 缓存 ==========
+__pycache__/
+*.pyc
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
